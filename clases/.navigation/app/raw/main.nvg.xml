@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.paulaalejandra.clases.Departamentos"/>
+      <point      
+        x = "1292"      
+        y = "44"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.paulaalejandra.clases.iniciarsesion"/>
+      <point      
+        x = "-88"      
+        y = "1476"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.paulaalejandra.clases.Ranking"/>
+      <point      
+        x = "1336"      
+        y = "1448"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.paulaalejandra.clases.pais"/>
+      <point      
+        x = "124"      
+        y = "68"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.paulaalejandra.clases.Pais"/>
+      <point      
+        x = "2248"      
+        y = "36"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>
