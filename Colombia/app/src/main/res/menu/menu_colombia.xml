@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Colombia">
+    <item
+        android:id="@+id/sesion"
+        android:orderInCategory="100"
+        android:title="INICIAR SESION"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/recomendados"
+        android:orderInCategory="100"
+        android:title="RECOMENDADOS"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/departamentos"
+        android:orderInCategory="100"
+        android:title="DEPARTAMENTOS"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/salir"
+        android:orderInCategory="100"
+        android:title="SALIR"
+        app:showAsAction="never" />
+</menu>
