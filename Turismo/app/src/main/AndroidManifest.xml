@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.paulaalejandra.turismo" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="TURISMO SUMAPAZ"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:screenOrientation="userLandscape"
+            android:name=".inicio1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".principal2"
+            android:label="TURISMO SUMAPAZ"
+            android:screenOrientation="userPortrait">
+        </activity>
+        <activity
+            android:name=".venecia3"
+            android:screenOrientation="userPortrait"
+            android:label="VENECIA" >
+        </activity>
+        <activity
+            android:name=".resena"
+            android:screenOrientation="userPortrait"
+            android:label="RESEÑA REGION DEL SUMAPAZ" >
+        </activity>
+        <activity
+            android:name=".municipios2_1"
+            android:screenOrientation="userPortrait"
+            android:label="MUNICIPIOS DE LA REGION" >
+        </activity>
+        <activity
+            android:name=".actividades"
+            android:screenOrientation="userPortrait"
+            android:label="ACTIVIDADES TURISTICAS" >
+        </activity>
+        <activity
+            android:name=".lugares"
+            android:screenOrientation="userPortrait"
+            android:label="LUGARES TURISTICOS" >
+        </activity>
+        <activity
+            android:name=".comentarios"
+            android:screenOrientation="userPortrait"
+            android:label="CONTACTENOS" >
+        </activity>
+    </application>
+</manifest>

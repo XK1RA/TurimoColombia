@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Turismo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_principal2">principal2</string>
+    <string name="title_activity_venecia3">venecia3</string>
+    <string name="title_activity_resena">resena</string>
+    <string name="title_activity_municipios2_1">municipios2_1</string>
+    <string name="title_activity_actividades">actividades</string>
+    <string name="title_activity_lugares">lugares</string>
+    <string name="title_activity_comentarios">comentarios</string>
+    <string name="title_activity_post_border_style">post_border_style</string>
+</resources>

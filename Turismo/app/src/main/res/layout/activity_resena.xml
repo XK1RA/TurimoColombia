@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fffbfff9">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="300dp"
+                android:id="@+id/iv_imagen_listaruncircuito"
+                android:src="@drawable/sumapaz"
+                android:scaleType="fitCenter"
+                android:layout_marginTop="5dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="REGION DEL SUMAPAZ"
+                    android:id="@+id/tv_titulo_listaruncircuito"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#ff000000"
+                    android:visibility="visible"
+                    android:layout_gravity="center_vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="La Provincia del Sumapaz está ubicada al sur y al occidente de Bogotá en el departamento de Cundinamarca, Colombia. Está compuesta por 10 municipios. Su capital y centro económico es Fusagasugá, sus otros municipios son: Silvania, Tibacuy, Pasca, Arbelaéz, Pandi, San Bernardo, Venecia, Cabrera, Granada.2 La provincia fue creada por Decreto Nacional 489 del 7 de noviembre de 1895, a su vez ratificada por Ley 162 de 1896. Además de los diez municipios de Cundinamarca, circunscribe también el sur del territorio del Distrito Capital, San Juan, y por el nor-oriente del departamento del Tolima incluye a Icononzo, Villa Rica, y los corregimientos de El Palmar, Nuevo Mundo, Alpes, El Roble, Mercadilla, Nuñez, La Colonia, La Pradera, El Duda y otros. Como zona de influencia llega hasta Usme en las goteras de Bogotá y hasta el Pato y La Uribe en el departamento del Meta. Cuenta con una extensión de alrededor de 1670 kilómetros cuadrados El río principal de esta cuenca es el Sumapaz con una longitud de 120 km y recibe drenajes de las subcuencas de los ríos Panches, San Juan, El Pilar, río Subia, río Chocho y el río Paguey. Aporta 41,3 m³ /s en cercanías del sitio conocido como el Boquerón, entre los límites del departamento de Cundinamarca y Tolima. "
+                android:id="@+id/tv_contenido_listaruncircuito"
+                android:layout_margin="8dp"
+                android:textColor="#ff868686"
+                android:layout_marginTop="6dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
